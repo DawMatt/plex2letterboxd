@@ -11,9 +11,11 @@ Movies are exported to a CSV file containing:
 ## Installation
 
 ```console
-$ git clone https://github.com/mtimkovich/plex2letterboxd.git
-$ cd plex2letterbox
-$ pip install .
+git clone https://github.com/mtimkovich/plex2letterboxd.git
+cd plex2letterbox
+python3 -m venv .
+source ./bin/activate
+pip install .
 ```
 
 ## Usage
@@ -21,7 +23,9 @@ $ pip install .
 Rename `config.ini.example` to `config.ini` and fill it with your Plex credentials.
 
 ```console
-$ python -m plex2letterboxd -i config.ini
+cd plex2letterbox
+source ./bin/activate
+python3 -m plex2letterboxd -i config.ini
 ```
 
 ```

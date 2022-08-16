@@ -3,3 +3,5 @@ config.ini
 env
 *.csv
 __pycache__
+bin
+lib
